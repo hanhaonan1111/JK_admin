@@ -1,0 +1,13 @@
+.root {
+  position: relative;
+
+  :global {
+    .ant-upload-list {
+      .ant-upload-list-picture-card-container,
+      .ant-upload-select {
+        width: 146px;
+        height: 146px;
+      }
+    }
+  }
+}

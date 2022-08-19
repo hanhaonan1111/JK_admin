@@ -1,0 +1,22 @@
+.root {
+  position: relative;
+
+  :global {
+    .avatar-uploader {
+      margin-left: 190px;
+    }
+
+    .publish-quill {
+      height: 300px;
+      width: 900px;
+    }
+
+    .ant-upload-list {
+      .ant-upload-list-picture-card-container,
+      .ant-upload-select {
+        width: 146px;
+        height: 146px;
+      }
+    }
+  }
+}

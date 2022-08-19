@@ -1,0 +1,15 @@
+.root {
+  :global {
+    .table {
+      .ant-pagination {
+        display: none;
+      }
+    }
+
+    .page {
+      text-align: center;
+      margin: 30px auto;
+    }
+  }
+}
+
